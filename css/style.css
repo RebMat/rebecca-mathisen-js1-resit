@@ -7,3 +7,11 @@
 @import "imports/form.css";
 @import "imports/joke.css";
 @import "imports/dynamic.css";
+
+.form-control {
+  margin: 15px;
+}
+
+#submit {
+  margin: 15px;
+}
