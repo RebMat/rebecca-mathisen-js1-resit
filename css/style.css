@@ -12,6 +12,10 @@
   margin: 15px;
 }
 
+.form-error {
+  margin-left: 15px;
+}
+
 #submit {
   margin: 15px;
 }
