@@ -9,6 +9,7 @@ async function getJoke() {
     const response = await fetch(url);
     const result = await response.json();
     console.log(result);
+
     heading.innerHTML += `${result.category} Joke`;
     setUp.innerHTML += `${result.setup}`;
     punchline.innerHTML += `${result.delivery}`;
