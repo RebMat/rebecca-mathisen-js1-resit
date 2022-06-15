@@ -20,7 +20,7 @@ async function getMultipleJokes() {
 
     for (let i = 0; i < jokes.length; i++) {
       console.log(jokes[i].category, jokes[i].setup, jokes[i].delivery);
-      if (i === 4) {
+      if (i === 5) {
         break;
       }
 
@@ -31,7 +31,7 @@ async function getMultipleJokes() {
                                      </div>`;
     }
 
-    document.title = `${jokes[0].setup}`;
+    document.title = `${jokes[2].setup}`;
   } catch (error) {
     console.log(error);
     heading.innerHTML = "Something went wrong!";
